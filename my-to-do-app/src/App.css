@@ -1,0 +1,56 @@
+/* * {
+  border: dotted 2px red;
+} */
+
+body {
+  background: url('../public/cork.jpg');
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.DateHeader {
+  display: flex;
+  justify-content: center;
+}
+
+.TodoForm {
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+label {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.Dashboards {
+  display: flex;
+  justify-content: center;
+  height: 90%;
+  width: 100%;
+}
+
+.cardWithDescription {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.cardContainerWithDelete {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-top: 4em;
+  /* box-shadow: 0 6px 15px rgba($color: #000000, $alpha: 0.4); */
+  border-radius: 10px;
+  background-color: yellow;
+}
